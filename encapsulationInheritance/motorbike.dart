@@ -3,25 +3,15 @@ import 'vehicle.dart';
 //inheritance
 class Motorbike extends Vehicle {
   Motorbike(
-      {required double accelerate,
-      required String brand,
-      int sit = 1,
-      required double carryWeight,
-      required String color,
-      required double houreAtMaxSpeed,
-      required int milage,
-      required String model,
-      required double price})
-      : super(
-            accelerate: accelerate,
-            sit: sit,
-            houreAtMaxSpeed: houreAtMaxSpeed,
-            carryWeight: carryWeight,
-            color: color,
-            milage: milage,
-            model: model,
-            price: price,
-            brand: brand);
+      {required super.accelerate,
+      required super.brand,
+      super.sit = 1,
+      required super.carryWeight,
+      required super.color,
+      required super.houreAtMaxSpeed,
+      required super.milage,
+      required super.model,
+      required super.price});
   @override
   String pricePerMilage() {
     double ppm = milage / price;
