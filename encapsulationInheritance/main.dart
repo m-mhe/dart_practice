@@ -47,7 +47,7 @@ void main() {
       houreAtMaxSpeed: 2,
       milage: 9000,
       model: "12H72",
-      price: 0.02);
+      price: 4.045645452);
 
   //------------------Now we can access those as objects--------------------
   boing747.pYI = "1974";
