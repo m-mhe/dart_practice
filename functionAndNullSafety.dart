@@ -46,7 +46,7 @@ String? switchCase(double gpaPoint) {
       break;
 
     case 4 && 5:
-      return "It will always be false, and this switch-case will return null";
+      return "It will always be false, and this switch-case will return null.";
       break;
 
     case 6:
