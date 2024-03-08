@@ -1,7 +1,7 @@
 import "computer.dart";
 
-//if we write an abstract class, then we don't have to @override from implemented class
-//By implementing we can achieve interface
+//if we write an abstract class, then we don't have to @override from implemented class.
+//By implementing we can achieve interface.
 abstract class DemoClass implements Computer {}
 
 //In the case of extends we must have to @override all of the unimplemented methods.
