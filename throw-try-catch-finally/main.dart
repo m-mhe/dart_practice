@@ -12,7 +12,7 @@ void printer() {
   } on SystemFail {
     print("Something went wrong: ${SystemFail().toString()}");
   } catch (e) {
-    print("Something went wrong: ${e.toString()}");
+    print("Something went wrong, ${e.toString()}");
   } finally {
     printContent();
   }
