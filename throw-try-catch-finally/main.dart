@@ -8,7 +8,7 @@ void printer() {
   try {
     printHeadline();
   } on Offline {
-    print("Something went wrong: ${Offline().toString()}");
+    print("Something went wrong: ${Offline()}");
   } on SystemFail {
     print("Something went wrong: ${SystemFail().toString()}");
   } catch (e) {
